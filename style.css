@@ -1,0 +1,39 @@
+*{font-family: sans-serif;}
+
+header {
+	display: flex;
+	font-family: Verdana;
+ 	font-size: 14px;
+ 	font-weight: bold;
+ 	border-bottom: 1px solid black;
+ 	padding-bottom: 10px;
+}
+
+.headercontainer{
+display: inline-flex;
+width: 100%;
+}
+
+.headerlogo{
+	display: inline-flex;
+
+}
+
+.headertitle{
+	color: MediumAquamarine;
+}
+
+nav{
+	display: inline-flex;
+	margin: 10px 10px;
+	margin-right: 10px; 
+	justify-content: flex-end;
+}
+
+nav a{
+	color: black;
+}
+
+nav li{
+	display: inline-block;
+}
